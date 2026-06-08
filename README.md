@@ -31,7 +31,7 @@ A nostalgic Hugo theme inspired by late 90s/early 2000s web design with modern f
 - Multiple post list views (list, grid, archive)
 
 🎨 **Content Support**
-- Complete Markdown support (thoroughly tested with the [Hugo Theme Development Template](https://github.com/madebydia/hugo-theme-dev-template))
+- Complete Markdown support
 - Syntax highlighting for code
 - Image galleries and media embedding
 - Table of contents generation
