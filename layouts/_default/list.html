@@ -12,7 +12,7 @@
                 {{ .Title }} ({{ len .Pages }} {{ if eq (len .Pages) 1 }}post{{ else }}posts{{ end }})
             {{ end }}
         </span>
-        <div class="window-controls">
+        <div class="window-controls" aria-hidden="true">
             <span class="window-button">_</span>
             <span class="window-button">□</span>
             <span class="window-button">×</span>
@@ -179,7 +179,7 @@
 <div class="window">
     <div class="window-header">
         <span class="window-title">📄 Page Navigation</span>
-        <div class="window-controls">
+        <div class="window-controls" aria-hidden="true">
             <span class="window-button">_</span>
             <span class="window-button">□</span>
             <span class="window-button">×</span>
@@ -218,7 +218,7 @@
 <div class="window">
     <div class="window-header">
         <span class="window-title">🗂️ Browse by Category</span>
-        <div class="window-controls">
+        <div class="window-controls" aria-hidden="true">
             <span class="window-button">_</span>
             <span class="window-button">□</span>
             <span class="window-button">×</span>

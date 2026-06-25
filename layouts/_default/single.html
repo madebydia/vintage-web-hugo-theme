@@ -2,7 +2,7 @@
 <article class="window">
     <div class="window-header">
         <span class="window-title">{{ .Title }}</span>
-        <div class="window-controls">
+        <div class="window-controls" aria-hidden="true">
             <span class="window-button">_</span>
             <span class="window-button">□</span>
             <span class="window-button">×</span>
@@ -104,11 +104,11 @@
                 <div style="font-weight: bold; margin-bottom: 6px;">📤 Share this post:</div>
                 <div style="display: flex; gap: 4px; flex-wrap: wrap;">
                     <a href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}" 
-                       target="_blank" class="btn" style="font-size: 10px;">Twitter</a>
+                       target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 10px;">Twitter</a>
                     <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" 
-                       target="_blank" class="btn" style="font-size: 10px;">Facebook</a>
+                       target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 10px;">Facebook</a>
                     <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" 
-                       target="_blank" class="btn" style="font-size: 10px;">LinkedIn</a>
+                       target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 10px;">LinkedIn</a>
                     <a href="mailto:?subject={{ .Title }}&body={{ .Permalink }}" 
                        class="btn" style="font-size: 10px;">Email</a>
                 </div>
@@ -158,7 +158,7 @@
             {{ if .Site.Params.edit_page }}
             <div class="edit-link" style="font-size: 10px; margin-top: 8px;">
                 {{ with .Site.Params.repo_url }}
-                <a href="{{ . }}/edit/main/content/{{ $.File.Path }}" target="_blank">
+                <a href="{{ . }}/edit/main/content/{{ $.File.Path }}" target="_blank" rel="noopener noreferrer">
                     ✏️ Edit this page on GitHub
                 </a>
                 {{ end }}
@@ -174,7 +174,7 @@
     <div class="window">
         <div class="window-header">
             <span class="window-title">← Previous Post</span>
-            <div class="window-controls">
+            <div class="window-controls" aria-hidden="true">
                 <span class="window-button">_</span>
                 <span class="window-button">□</span>
                 <span class="window-button">×</span>
@@ -195,7 +195,7 @@
     <div class="window">
         <div class="window-header">
             <span class="window-title">Next Post →</span>
-            <div class="window-controls">
+            <div class="window-controls" aria-hidden="true">
                 <span class="window-button">_</span>
                 <span class="window-button">□</span>
                 <span class="window-button">×</span>
@@ -217,7 +217,7 @@
     <div class="window">
         <div class="window-header">
             <span class="window-title">💬 Comments</span>
-            <div class="window-controls">
+            <div class="window-controls" aria-hidden="true">
                 <span class="window-button">_</span>
                 <span class="window-button">□</span>
                 <span class="window-button">×</span>

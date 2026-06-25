@@ -1,5 +1,5 @@
 baseURL = "https://example.com"
-languageCode = "en-us"
+locale = "en-US"
 title = "Retro Web Central - Y2K Compliant Since 1999"
 theme = "vintage-web-hugo-theme"
 

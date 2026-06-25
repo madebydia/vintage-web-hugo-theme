@@ -2,7 +2,7 @@
     <div class="window">
         <div class="window-header">
             <span class="window-title">💻 Site Information</span>
-            <div class="window-controls">
+            <div class="window-controls" aria-hidden="true">
                 <span class="window-button">_</span>
                 <span class="window-button">□</span>
                 <span class="window-button">×</span>
@@ -18,8 +18,8 @@
                     {{ with .Site.Params.author }}
                     <div>Created by {{ . }}</div>
                     {{ end }}
-                    <div>Powered by <a href="https://gohugo.io" target="_blank">Hugo</a></div>
-                    <div>Theme: <a href="https://github.com/vibecodemama/vintage-web-hugo-theme" target="_blank">Vintage Web</a></div>
+                    <div>Powered by <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a></div>
+                    <div>Theme: <a href="https://github.com/madebydia/vintage-web-hugo-theme" target="_blank" rel="noopener noreferrer">Vintage Web</a></div>
                 </div>
                 
                 <!-- Quick Links -->
@@ -32,7 +32,7 @@
                     {{ end }}
                     <div><a href="{{ "/categories/" | relLangURL }}">📂 Categories</a></div>
                     <div><a href="{{ "/tags/" | relLangURL }}">🏷️ Tags</a></div>
-                    {{ with .Site.LanguageCode }}
+                    {{ with .Site.Language.Locale }}
                     <div><a href="{{ "/index.xml" | relLangURL }}">📡 RSS Feed</a></div>
                     {{ end }}
                 </div>
@@ -45,13 +45,13 @@
                     <div><a href="mailto:{{ . }}">📧 Email</a></div>
                     {{ end }}
                     {{ with .Site.Params.social.twitter }}
-                    <div><a href="https://twitter.com/{{ . }}" target="_blank">🐦 Twitter</a></div>
+                    <div><a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener noreferrer">🐦 Twitter</a></div>
                     {{ end }}
                     {{ with .Site.Params.social.github }}
-                    <div><a href="https://github.com/{{ . }}" target="_blank">🐱 GitHub</a></div>
+                    <div><a href="https://github.com/{{ . }}" target="_blank" rel="noopener noreferrer">🐱 GitHub</a></div>
                     {{ end }}
                     {{ with .Site.Params.social.linkedin }}
-                    <div><a href="https://linkedin.com/in/{{ . }}" target="_blank">💼 LinkedIn</a></div>
+                    <div><a href="https://linkedin.com/in/{{ . }}" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a></div>
                     {{ end }}
                 </div>
                 {{ end }}

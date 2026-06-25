@@ -51,7 +51,7 @@
 <body>
     <!-- Browser Chrome Effect -->
     {{ if .Site.Params.show_browser_chrome }}
-    <div class="browser-chrome">
+    <div class="browser-chrome" aria-hidden="true">
         <div class="toolbar">
             <span class="toolbar-button">Back</span>
             <span class="toolbar-button">Forward</span>
@@ -77,7 +77,7 @@
             <div class="window">
                 <div class="window-header">
                     <span class="window-title">{{ .Site.Title }}</span>
-                    <div class="window-controls">
+                    <div class="window-controls" aria-hidden="true">
                         <span class="window-button">_</span>
                         <span class="window-button">□</span>
                         <span class="window-button">×</span>

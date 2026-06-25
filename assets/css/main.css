@@ -81,9 +81,6 @@
     --shadow: rgba(0, 0, 0, 0.3);
 }
 
-/* Typography */
-@import url('https://fonts.googleapis.com/css2?family=MS+Sans+Serif:wght@400;700&family=Courier+New:wght@400;700&display=swap');
-
 body {
     font-family: 'MS Sans Serif', 'Tahoma', 'Arial', sans-serif;
     font-size: 11px;

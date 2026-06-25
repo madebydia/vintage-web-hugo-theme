@@ -82,25 +82,25 @@
     <div class="sidebar-title">🌐 Connect</div>
     <ul>
         {{ with .Site.Params.social.twitter }}
-        <li><a href="https://twitter.com/{{ . }}" target="_blank">🐦 Twitter</a></li>
+        <li><a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener noreferrer">🐦 Twitter</a></li>
         {{ end }}
         {{ with .Site.Params.social.github }}
-        <li><a href="https://github.com/{{ . }}" target="_blank">🐱 GitHub</a></li>
+        <li><a href="https://github.com/{{ . }}" target="_blank" rel="noopener noreferrer">🐱 GitHub</a></li>
         {{ end }}
         {{ with .Site.Params.social.linkedin }}
-        <li><a href="https://linkedin.com/in/{{ . }}" target="_blank">💼 LinkedIn</a></li>
+        <li><a href="https://linkedin.com/in/{{ . }}" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a></li>
         {{ end }}
         {{ with .Site.Params.social.email }}
         <li><a href="mailto:{{ . }}">📧 Email</a></li>
         {{ end }}
         {{ with .Site.Params.social.mastodon }}
-        <li><a href="{{ . }}" target="_blank" rel="me">🐘 Mastodon</a></li>
+        <li><a href="{{ . }}" target="_blank" rel="me noopener noreferrer">🐘 Mastodon</a></li>
         {{ end }}
         {{ with .Site.Params.social.youtube }}
-        <li><a href="https://youtube.com/{{ . }}" target="_blank">📺 YouTube</a></li>
+        <li><a href="https://youtube.com/{{ . }}" target="_blank" rel="noopener noreferrer">📺 YouTube</a></li>
         {{ end }}
         {{ with .Site.Params.social.instagram }}
-        <li><a href="https://instagram.com/{{ . }}" target="_blank">📷 Instagram</a></li>
+        <li><a href="https://instagram.com/{{ . }}" target="_blank" rel="noopener noreferrer">📷 Instagram</a></li>
         {{ end }}
     </ul>
 </div>

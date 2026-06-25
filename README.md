@@ -68,7 +68,7 @@ theme = "vintage-web-hugo-theme"
 
 ```toml
 baseURL = "https://yoursite.com"
-languageCode = "en-us"
+locale = "en-US"
 title = "Your Vintage Website"
 theme = "vintage-web-hugo-theme"
 
@@ -130,7 +130,7 @@ theme = "vintage-web-hugo-theme"
   # Social Links
   [params.social]
     twitter = "username"
-    github = "username"
+    github = "madebydia"
     linkedin = "username"
     email = "you@example.com"
     mastodon = "https://mastodon.social/@username"
@@ -141,7 +141,7 @@ theme = "vintage-web-hugo-theme"
   google_analytics = "G-XXXXXXXXXX"
 
   # Repository (for edit links)
-  repo_url = "https://github.com/username/repo"
+  repo_url = "https://github.com/madebydia/vintage-web-hugo-theme"
   edit_page = true
 ```
 
