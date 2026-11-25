@@ -14,10 +14,10 @@ Greetings, fellow netizen! You've stumbled upon the most tubular corner of the i
 
 ### 🔥 Latest Updates 🔥
 
-- **NEW!** Our guestbook is now live! [Sign it here!](/guestbook/)
-- **COOL!** Check out our [HTML tutorials](/posts/html-basics-1999/) 
+- **NEW!** Our guestbook is now live! [Sign it here!]({{< ref "/guestbook.md" >}})
+- **COOL!** Check out our [HTML tutorials]({{< ref "/posts/html-basics-1999.md" >}}) 
 - **RAD!** [Check out the post archive](/posts/)
-- **AWESOME!** [Best animated GIFs of the decade](/posts/best-animated-gifs/)
+- **AWESOME!** [Best animated GIFs of the decade]({{< ref "/posts/best-animated-gifs.md" >}})
 
 ### 📱 What's New in Tech?
 
@@ -32,10 +32,10 @@ The new millennium is approaching and technology is advancing at warp speed! We'
 
 <marquee>**★ Don't forget to bookmark this site! ★**</marquee>
 
-- **[Tech Reviews](/categories/tech/)** - The latest gadgets and software
-- **[Web Design Tips](/categories/web-design/)** - Make your site shine!
-- **[Y2K Preparedness](/categories/y2k/)** - Will your computer survive?
-- **[Gaming Corner](/categories/gaming/)** - From Quake to StarCraft
+- **[Tech Reviews]({{< ref "/categories" >}})** - The latest gadgets and software
+- **[Web Design Tips]({{< ref "/categories" >}})** - Make your site shine!
+- **[Y2K Preparedness]({{< ref "/categories" >}})** - Will your computer survive?
+- **[Gaming Corner]({{< ref "/categories" >}})** - From Quake to StarCraft
 
 ### 💾 System Requirements
 
@@ -58,9 +58,9 @@ This site is optimized for:
 **This site is under construction! 🚧 Check back often for updates!**
 
 <center>
-<img src="/images/badges/made-with-html.pngMade+with+HTML" alt="Made with HTML" /> 
-<img src="/images/badges/made-with-html.pngBest+viewed+in+Netscape" alt="Best viewed in Netscape" />
-<img src="/images/badges/made-with-html.pngY2K+Ready" alt="Y2K Ready" />
+<img src="/images/badges/made-with-html.png" /> 
+<img src="/images/badges/netscape.png" />
+<img src="/images/badges/y2k-ready.png" />
 </center>
 
 *Last updated: December 31, 1999 at 11:59 PM*

@@ -21,7 +21,7 @@
     <ul>
         {{ range $name, $pages := . }}
         <li>
-            <a href="{{ (index .Site.Taxonomies.categories ($name | urlize)).Page.RelPermalink }}">
+            <a href="{{ (index site.Taxonomies.categories ($name | urlize)).Page.RelPermalink }}">
                 {{ $name | title }} ({{ len $pages }})
             </a>
         </li>
@@ -36,7 +36,7 @@
     <div class="sidebar-title">🏷️ Popular Tags</div>
     <div class="tag-cloud">
         {{ range first 15 (.ByCount) }}
-        <a href="{{ (index .Site.Taxonomies.tags (.Name | urlize)).Page.RelPermalink }}">
+        <a href="{{ (index site.Taxonomies.tags (.Name | urlize)).Page.RelPermalink }}">
             {{ .Name }} ({{ .Count }})
         </a>
         {{ end }}
@@ -67,7 +67,7 @@
     <ul>
         {{ range $name, $pages := . }}
         <li>
-            <a href="{{ (index .Site.Taxonomies.series ($name | urlize)).Page.RelPermalink }}">
+            <a href="{{ (index site.Taxonomies.series ($name | urlize)).Page.RelPermalink }}">
                 {{ $name | title }} ({{ len $pages }})
             </a>
         </li>

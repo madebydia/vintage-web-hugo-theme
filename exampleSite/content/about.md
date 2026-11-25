@@ -119,7 +119,7 @@ We're proud recipients of:
 ## Join Our Community! 🤝
 
 **Ways to Connect:**
-- 📝 [Sign our guestbook](/guestbook/) - share your thoughts!
+- 📝 [Sign our guestbook]({{< ref "/guestbook.md" >}}) - share your thoughts!
 - 📧 Subscribe to our weekly newsletter
 - 💬 Join our IRC channel: #retrowebcentral on EFNet
 - 🔗 Exchange links with us
@@ -160,9 +160,9 @@ Special thanks to:
 - **All our visitors** who make this site worthwhile
 
 <center>
-<img src="/images/badges/made-with-html.pngRETRO+WEB" alt="Retro Web" />
-<img src="/images/badges/made-with-html.pngSINCE+1999" alt="Since 1999" />
-<img src="/images/badges/made-with-html.pngY2K+READY" alt="Y2K Ready" />
+<img src="/images/badges/retro-web.png" alt="Retro Web" />
+<img src="/images/badges/since-1999.png" alt="Since 1999" />
+<img src="/images/badges/y2k-ready.png" />
 </center>
 
 **Thank you for visiting Retro Web Central - where the future of the web happens today!** ✨

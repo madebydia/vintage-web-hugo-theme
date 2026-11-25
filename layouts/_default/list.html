@@ -81,7 +81,7 @@
                         
                         {{ with .Params.categories }}
                         <span class="post-meta-item">
-                            📂 {{ range $i, $cat := . }}{{ if $i }}, {{ end }}<a href="{{ (index .Site.Taxonomies.categories ($cat | urlize)).Page.RelPermalink }}">{{ $cat }}</a>{{ end }}
+                            📂 {{ range $i, $cat := . }}{{ if $i }}, {{ end }}<a href="{{ (index site.Taxonomies.categories ($cat | urlize)).Page.RelPermalink }}">{{ $cat }}</a>{{ end }}
                         </span>
                         {{ end }}
                         
@@ -96,7 +96,7 @@
                     {{ with .Params.tags }}
                     <div class="post-tags" style="margin-top: 4px;">
                         {{ range . }}
-                        <a href="{{ (index .Site.Taxonomies.tags (. | urlize)).Page.RelPermalink }}" 
+                        <a href="{{ (index site.Taxonomies.tags (. | urlize)).Page.RelPermalink }}" 
                            style="display: inline-block; background: var(--button-face); border: 1px outset var(--button-face); padding: 1px 3px; margin: 1px; font-size: 8px; text-decoration: none; color: var(--text-primary);">
                            {{ . }}
                         </a>
@@ -228,7 +228,7 @@
         {{ with .Site.Taxonomies.categories }}
         <div class="tag-cloud">
             {{ range $name, $pages := . }}
-            <a href="{{ (index .Site.Taxonomies.categories ($name | urlize)).Page.RelPermalink }}">
+            <a href="{{ (index site.Taxonomies.categories ($name | urlize)).Page.RelPermalink }}">
                 📂 {{ $name | title }} ({{ len $pages }})
             </a>
             {{ end }}
@@ -240,7 +240,7 @@
             <div style="font-weight: bold; margin-bottom: 6px; font-size: 11px;">🏷️ Popular Tags:</div>
             <div class="tag-cloud">
                 {{ range first 20 (.ByCount) }}
-                <a href="{{ (index .Site.Taxonomies.tags (.Name | urlize)).Page.RelPermalink }}">
+                <a href="{{ (index site.Taxonomies.tags (.Name | urlize)).Page.RelPermalink }}">
                     {{ .Name }} ({{ .Count }})
                 </a>
                 {{ end }}

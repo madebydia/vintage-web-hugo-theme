@@ -161,9 +161,9 @@ Welcome to our **TOTALLY AWESOME** guestbook! Share your thoughts, drop us a lin
 ---
 
 <center>
-<img src="/images/badges/made-with-html.pngSIGN+TODAY!" alt="Sign Today" />
-<img src="/images/badges/made-with-html.pngBE+FAMOUS!" alt="Be Famous" />
-<img src="/images/badges/made-with-html.pngJOIN+US!" alt="Join Us" />
+<img src="/images/badges/made-with-html.png" alt="Sign Today" />
+<img src="/images/badges/netscape.png" alt="Be Famous" />
+<img src="/images/badges/y2k-ready.png" alt="Join Us" />
 </center>
 
 **Thanks for being part of the Retro Web Central community!** 🌟
