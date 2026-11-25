@@ -10,7 +10,7 @@ description: "Leave your mark on our digital guestbook"
 Welcome to our **TOTALLY AWESOME** guestbook! Share your thoughts, drop us a line, or just say "Hi!" from wherever you are in cyberspace. We love hearing from fellow web enthusiasts!
 
 <center>
-<img src="https://via.placeholder.com/400x100/FF6600/FFFFFF?text=GUESTBOOK" alt="Guestbook Header" />
+<img src="/images/badges/guestbook-header.png" alt="Guestbook Header" />
 </center>
 
 ---
@@ -161,9 +161,9 @@ Welcome to our **TOTALLY AWESOME** guestbook! Share your thoughts, drop us a lin
 ---
 
 <center>
-<img src="https://via.placeholder.com/88x31/00FF00/000000?text=SIGN+TODAY!" alt="Sign Today" />
-<img src="https://via.placeholder.com/88x31/FF00FF/FFFFFF?text=BE+FAMOUS!" alt="Be Famous" />
-<img src="https://via.placeholder.com/88x31/FFFF00/000000?text=JOIN+US!" alt="Join Us" />
+<img src="/images/badges/made-with-html.pngSIGN+TODAY!" alt="Sign Today" />
+<img src="/images/badges/made-with-html.pngBE+FAMOUS!" alt="Be Famous" />
+<img src="/images/badges/made-with-html.pngJOIN+US!" alt="Join Us" />
 </center>
 
 **Thanks for being part of the Retro Web Central community!** 🌟

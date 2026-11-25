@@ -6,7 +6,7 @@ description: "Essential preparation tips for the Y2K computer crisis"
 author: "TechGuru99"
 categories: ["y2k", "tech", "survival"]
 tags: ["y2k", "millennium-bug", "computers", "crisis", "preparation"]
-featured_image: "https://via.placeholder.com/600x300/FF0000/FFFFFF?text=Y2K+WARNING"
+featured_image: "images/screenshot.png"
 toc: true
 ---
 
@@ -195,8 +195,8 @@ Many computer systems store years using only **2 digits** instead of 4. So:
 **Remember:** It's better to be overprepared than caught off-guard. The Y2K bug might be the biggest technological challenge humanity has ever faced!
 
 <center>
-<img src="https://via.placeholder.com/88x31/FF0000/FFFFFF?text=Y2K+Ready!" alt="Y2K Ready!" />
-<img src="https://via.placeholder.com/88x31/FFFF00/000000?text=Backup+Your+Data" alt="Backup Your Data" />
+<img src="/images/badges/made-with-html.pngY2K+Ready!" alt="Y2K Ready!" />
+<img src="/images/badges/made-with-html.pngBackup+Your+Data" alt="Backup Your Data" />
 </center>
 
 **Stay safe, stay prepared, and see you in the year 2000!** 🎆

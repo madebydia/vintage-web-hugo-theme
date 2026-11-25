@@ -40,7 +40,7 @@
                     📂 Categories: 
                     {{ range $i, $cat := . }}
                         {{ if $i }}, {{ end }}
-                        <a href="{{ "/categories/" | relLangURL }}{{ $cat | urlize }}">{{ $cat }}</a>
+                        <a href="{{ (index .Site.Taxonomies.categories ($cat | urlize)).Page.RelPermalink }}">{{ $cat }}</a>
                     {{ end }}
                 </span>
                 {{ end }}
@@ -50,7 +50,7 @@
                     🏷️ Tags: 
                     {{ range $i, $tag := . }}
                         {{ if $i }}, {{ end }}
-                        <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}">{{ $tag }}</a>
+                        <a href="{{ (index .Site.Taxonomies.tags ($tag | urlize)).Page.RelPermalink }}">{{ $tag }}</a>
                     {{ end }}
                 </span>
                 {{ end }}
@@ -60,7 +60,7 @@
                     📚 Part of series: 
                     {{ range $i, $ser := . }}
                         {{ if $i }}, {{ end }}
-                        <a href="{{ "/series/" | relLangURL }}{{ $ser | urlize }}">{{ $ser }}</a>
+                        <a href="{{ (index .Site.Taxonomies.series ($ser | urlize)).Page.RelPermalink }}">{{ $ser }}</a>
                     {{ end }}
                 </span>
                 {{ end }}

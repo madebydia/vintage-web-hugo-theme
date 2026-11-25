@@ -17,17 +17,14 @@
     <meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
-    {{ with .Params.featured_image }}
-    <meta property="og:image" content="{{ . | absURL }}">
-    {{ end }}
+    {{ $ogImage := .Params.featured_image | default "images/screenshot.png" }}
+    <meta property="og:image" content="{{ $ogImage | absURL }}">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
     <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
-    {{ with .Params.featured_image }}
-    <meta name="twitter:image" content="{{ . | absURL }}">
-    {{ end }}
+    <meta name="twitter:image" content="{{ $ogImage | absURL }}">
     
     <!-- RSS -->
     {{ range .AlternativeOutputFormats -}}

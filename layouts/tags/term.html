@@ -43,7 +43,7 @@
                     {{ end }}
                     {{ with .Params.categories }}
                     <span class="post-meta-item">
-                        📂 {{ range $i, $cat := . }}{{ if $i }}, {{ end }}<a href="{{ "/categories/" | relLangURL }}{{ $cat | urlize }}">{{ $cat }}</a>{{ end }}
+                        📂 {{ range $i, $cat := . }}{{ if $i }}, {{ end }}<a href="{{ (index .Site.Taxonomies.categories ($cat | urlize)).Page.RelPermalink }}">{{ $cat }}</a>{{ end }}
                     </span>
                     {{ end }}
                     <span class="post-meta-item">📖 {{ .ReadingTime }} min read</span>
@@ -56,7 +56,7 @@
                 {{ with .Params.tags }}
                 <div class="post-tags" style="margin-top: 4px;">
                     {{ range . }}
-                    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" 
+                    <a href="{{ (index .Site.Taxonomies.tags (. | urlize)).Page.RelPermalink }}" 
                        style="display: inline-block; background: var(--button-face); border: 1px outset var(--button-face); padding: 1px 3px; margin: 1px; font-size: 8px; text-decoration: none; color: var(--text-primary); {{ if eq . $.Data.Term }}background: var(--highlight); color: white;{{ end }}">
                        🏷️ {{ . }}
                     </a>
@@ -91,7 +91,7 @@
         <div class="tag-cloud">
             {{ range $name, $pages := .Site.Taxonomies.tags }}
             {{ if ne $name $.Data.Term }}
-            <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">
+            <a href="{{ (index .Site.Taxonomies.tags ($name | urlize)).Page.RelPermalink }}">
                 🏷️ {{ $name | title }} ({{ len $pages }})
             </a>
             {{ end }}

@@ -49,7 +49,7 @@
                     {{ with .Params.categories }}
                     <span class="post-meta-item">
                         {{ range . }}
-                        <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                        <a href="{{ (index .Site.Taxonomies.categories (. | urlize)).Page.RelPermalink }}">{{ . }}</a>
                         {{ end }}
                     </span>
                     {{ end }}

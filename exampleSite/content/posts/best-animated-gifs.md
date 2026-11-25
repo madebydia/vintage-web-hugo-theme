@@ -6,7 +6,7 @@ description: "Discover the coolest animated GIFs that will make your website tot
 author: "GifMaster2000"
 categories: ["web-design", "graphics"]
 tags: ["animated-gifs", "graphics", "cool", "website-design", "art"]
-featured_image: "https://via.placeholder.com/600x300/FF6600/FFFFFF?text=ANIMATED+GIFS+RULE!"
+featured_image: "images/screenshot.png"
 toc: true
 ---
 
@@ -261,8 +261,8 @@ Think you've created the next viral animated GIF? Send it to us!
 8. 💰 Dollar Sign Spinner
 
 <center>
-<img src="https://via.placeholder.com/88x31/00FF00/000000?text=GIF+POWERED" alt="GIF Powered" />
-<img src="https://via.placeholder.com/88x31/FF00FF/FFFFFF?text=ANIMATION+ZONE" alt="Animation Zone" />
+<img src="/images/badges/made-with-html.pngGIF+POWERED" alt="GIF Powered" />
+<img src="/images/badges/made-with-html.pngANIMATION+ZONE" alt="Animation Zone" />
 </center>
 
 **Remember:** A website without animated GIFs is like a car without wheels - it might work, but it's not going anywhere fast! 🚗💨

@@ -160,9 +160,9 @@ Special thanks to:
 - **All our visitors** who make this site worthwhile
 
 <center>
-<img src="https://via.placeholder.com/88x31/0066FF/FFFFFF?text=RETRO+WEB" alt="Retro Web" />
-<img src="https://via.placeholder.com/88x31/FF0066/FFFFFF?text=SINCE+1999" alt="Since 1999" />
-<img src="https://via.placeholder.com/88x31/00FF66/000000?text=Y2K+READY" alt="Y2K Ready" />
+<img src="/images/badges/made-with-html.pngRETRO+WEB" alt="Retro Web" />
+<img src="/images/badges/made-with-html.pngSINCE+1999" alt="Since 1999" />
+<img src="/images/badges/made-with-html.pngY2K+READY" alt="Y2K Ready" />
 </center>
 
 **Thank you for visiting Retro Web Central - where the future of the web happens today!** ✨

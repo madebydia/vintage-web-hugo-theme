@@ -7,7 +7,7 @@ author: "WebMaster3000"
 categories: ["web-design", "tutorials"]
 tags: ["html", "beginner", "tutorial", "web-development"]
 series: ["html-mastery"]
-featured_image: "https://via.placeholder.com/600x300/0066CC/FFFFFF?text=HTML+Tutorial"
+featured_image: "images/screenshot.png"
 toc: true
 ---
 
@@ -150,7 +150,7 @@ In our next tutorial, we'll cover:
 **Remember:** The best websites are those that work in 800x600 resolution and load quickly on a 28.8k modem!
 
 <center>
-<img src="https://via.placeholder.com/88x31/FF6600/FFFFFF?text=HTML+Rocks!" alt="HTML Rocks!" />
+<img src="/images/badges/made-with-html.pngHTML+Rocks!" alt="HTML Rocks!" />
 </center>
 
 *Happy coding, and welcome to the World Wide Web!* 🎉
