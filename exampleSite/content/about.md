@@ -160,9 +160,9 @@ Special thanks to:
 - **All our visitors** who make this site worthwhile
 
 <center>
-<img src="/images/badges/retro-web.png" alt="Retro Web" />
-<img src="/images/badges/since-1999.png" alt="Since 1999" />
-<img src="/images/badges/y2k-ready.png" />
+{{< badge src="/images/badges/retro-web.png" alt="Retro Web" >}}
+{{< badge src="/images/badges/since-1999.png" alt="Since 1999" >}}
+{{< badge src="/images/badges/y2k-ready.png" alt="" >}}
 </center>
 
 **Thank you for visiting Retro Web Central - where the future of the web happens today!** ✨

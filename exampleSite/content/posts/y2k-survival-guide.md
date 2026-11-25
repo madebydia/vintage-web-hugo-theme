@@ -195,8 +195,8 @@ Many computer systems store years using only **2 digits** instead of 4. So:
 **Remember:** It's better to be overprepared than caught off-guard. The Y2K bug might be the biggest technological challenge humanity has ever faced!
 
 <center>
-<img src="/images/badges/y2k-ready.png!" alt="Y2K Ready!" />
-<img src="/images/badges/made-with-html.pngBackup+Your+Data" alt="Backup Your Data" />
+{{< badge src="/images/badges/y2k-ready.png!" alt="Y2K Ready!" >}}
+{{< badge src="/images/badges/made-with-html.pngBackup+Your+Data" alt="Backup Your Data" >}}
 </center>
 
 **Stay safe, stay prepared, and see you in the year 2000!** 🎆

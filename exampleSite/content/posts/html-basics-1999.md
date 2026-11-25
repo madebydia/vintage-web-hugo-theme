@@ -150,7 +150,7 @@ In our next tutorial, we'll cover:
 **Remember:** The best websites are those that work in 800x600 resolution and load quickly on a 28.8k modem!
 
 <center>
-<img src="/images/badges/made-with-html.pngHTML+Rocks!" alt="HTML Rocks!" />
+{{< badge src="/images/badges/made-with-html.pngHTML+Rocks!" alt="HTML Rocks!" >}}
 </center>
 
 *Happy coding, and welcome to the World Wide Web!* 🎉

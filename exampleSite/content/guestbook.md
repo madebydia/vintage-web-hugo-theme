@@ -10,7 +10,7 @@ description: "Leave your mark on our digital guestbook"
 Welcome to our **TOTALLY AWESOME** guestbook! Share your thoughts, drop us a line, or just say "Hi!" from wherever you are in cyberspace. We love hearing from fellow web enthusiasts!
 
 <center>
-<img src="/images/badges/guestbook-header.png" alt="Guestbook Header" />
+{{< badge src="/images/badges/guestbook-header.png" alt="Guestbook Header" >}}
 </center>
 
 ---
@@ -161,9 +161,9 @@ Welcome to our **TOTALLY AWESOME** guestbook! Share your thoughts, drop us a lin
 ---
 
 <center>
-<img src="/images/badges/made-with-html.png" alt="Sign Today" />
-<img src="/images/badges/netscape.png" alt="Be Famous" />
-<img src="/images/badges/y2k-ready.png" alt="Join Us" />
+{{< badge src="/images/badges/made-with-html.png" alt="Sign Today" >}}
+{{< badge src="/images/badges/netscape.png" alt="Be Famous" >}}
+{{< badge src="/images/badges/y2k-ready.png" alt="Join Us" >}}
 </center>
 
 **Thanks for being part of the Retro Web Central community!** 🌟

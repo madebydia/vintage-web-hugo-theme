@@ -261,8 +261,8 @@ Think you've created the next viral animated GIF? Send it to us!
 8. 💰 Dollar Sign Spinner
 
 <center>
-<img src="/images/badges/gif-powered.png" alt="GIF Powered" />
-<img src="/images/badges/animation-zone.png" alt="Animation Zone" />
+{{< badge src="/images/badges/gif-powered.png" alt="GIF Powered" >}}
+{{< badge src="/images/badges/animation-zone.png" alt="Animation Zone" >}}
 </center>
 
 **Remember:** A website without animated GIFs is like a car without wheels - it might work, but it's not going anywhere fast! 🚗💨

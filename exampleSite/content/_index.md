@@ -16,7 +16,7 @@ Greetings, fellow netizen! You've stumbled upon the most tubular corner of the i
 
 - **NEW!** Our guestbook is now live! [Sign it here!]({{< ref "/guestbook.md" >}})
 - **COOL!** Check out our [HTML tutorials]({{< ref "/posts/html-basics-1999.md" >}}) 
-- **RAD!** [Check out the post archive](/posts/)
+- **RAD!** [Check out the post archive]({{< ref "/posts" >}})
 - **AWESOME!** [Best animated GIFs of the decade]({{< ref "/posts/best-animated-gifs.md" >}})
 
 ### 📱 What's New in Tech?
@@ -58,9 +58,9 @@ This site is optimized for:
 **This site is under construction! 🚧 Check back often for updates!**
 
 <center>
-<img src="/images/badges/made-with-html.png" /> 
-<img src="/images/badges/netscape.png" />
-<img src="/images/badges/y2k-ready.png" />
+{{< badge src="/images/badges/made-with-html.png" alt="" >}} 
+{{< badge src="/images/badges/netscape.png" alt="" >}}
+{{< badge src="/images/badges/y2k-ready.png" alt="" >}}
 </center>
 
 *Last updated: December 31, 1999 at 11:59 PM*
